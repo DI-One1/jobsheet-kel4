@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { getProducts } from "@/lib/products";
 import BuildInfo from "@/components/BuildInfo";
-
+export const revalidate = 10;
 // TODO (Tahap 3, Langkah 13): tulis export const revalidate = ... di sini (lihat JOBSHEET.md)
 
 export default async function ProdukPage() {
